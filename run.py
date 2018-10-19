@@ -174,7 +174,7 @@ def main():
     output_dir = "./output_dir"
     access_token = "your-token-here"
     storage_server_url = "https://storage.cancercollaboratory.org";
-    num_threads = 6
+    num_threads = 10
 
     # Buold
     manifest_generator = ManifestGenerator(input_tsv_filename, output_dir)
